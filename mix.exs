@@ -21,8 +21,9 @@ defmodule CartPoleRl.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:nx, "~> 0.3.0"},
+      {:rl_lib, git: "git@github.com:masahiro-999/rl_lib.git", ref: "d5696092861051de3eccdd8459ac9e2593ec4c1a"},
+      {:gyx, git: "git@github.com:masahiro-999/gyx.git", ref: "3c913e58e913826e67e12d960e5bc0c14f22c177"},
     ]
   end
 end
