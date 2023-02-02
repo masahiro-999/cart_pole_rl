@@ -1,21 +1,10 @@
 # CartPoleRl
 
-**TODO: Add description**
+[label](cartpole.mp4)
 
-## Installation
+This is a sample program of the reinforcement learning library [RlLib](https://github.com/masahiro-999/rl_lib).
+We use DQN to perform reinforcement learning on OpenAI Gym's CartPole.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `cart_pole_rl` to your list of dependencies in `mix.exs`:
+# How to run
 
-```elixir
-def deps do
-  [
-    {:cart_pole_rl, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/cart_pole_rl>.
-
+$ mix run -e CartPoleRl.run
